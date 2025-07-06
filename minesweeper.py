@@ -8,7 +8,7 @@ def draw_window():
     if menu.mode:
         for mode in modes:
             mode.draw()
-        drawtext('(WORK IN PROGRESS)',font32,RED,50,415)
+        # drawtext('(WORK IN PROGRESS)',font32,RED,50,415)
     elif custommode.mode and not custommode.customcompleted:
         drawcustomtext()
         customx.drawbox()
